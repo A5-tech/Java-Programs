@@ -6,9 +6,9 @@ public class ProfitOrLoss {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter original cost of an item: ");
-        float costPrice = scan.nextInt();
+        float costPrice = scan.nextFloat();
         System.out.print("Enter selling price of that item: ");
-        float sellPrice = scan.nextInt();
+        float sellPrice = scan.nextFloat();
 
         if(costPrice<sellPrice){
             System.out.print("You made a profit of "+((sellPrice-costPrice)/costPrice*100)+"%");
